@@ -2,7 +2,7 @@
 
 ## Application setup
 ``` 
-Create the application:
+1. Create the application:
         1.  Init the project and package.json file:
                 cd /path/to/typescript-express-init
                 npm init
