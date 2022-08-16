@@ -8,8 +8,8 @@ export class Dog implements Animal {
   private readonly helloMsg: string;
 
   constructor(name: string, helloMsg: string) {
-    name = name;
-    helloMsg = helloMsg;
+    this.name = name;
+    this.helloMsg = helloMsg;
   }
 
   getAnimalName(): string {
